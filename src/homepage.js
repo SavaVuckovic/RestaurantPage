@@ -17,6 +17,6 @@ export default function generateHomepage(targetDiv) {
   wrapper.appendChild(h1);
   wrapper.appendChild(img);
   wrapper.appendChild(p);
-  console.log(targetDiv);
+  // render wrapper div
   targetDiv.appendChild(wrapper);
 };

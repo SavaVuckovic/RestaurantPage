@@ -41,6 +41,7 @@ nav {
   font-size: 20px;
   text-align: center;
   color: #fff;
+  text-transform: capitalize;
 }
 
 .tab.active {
