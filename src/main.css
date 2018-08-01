@@ -113,3 +113,8 @@ blockquote footer {
   font-weight: bold;
   font-style: italic;
 }
+
+address {
+  text-align: left;
+  font-size: 20px;
+}
