@@ -13,6 +13,9 @@ function generateTabs() {
   const nav = document.createElement('nav');
   // create tabs
   const home = createTab('home', generateHomepage);
+  // home should be active when page first loads
+  home.classList.add('active');
+  generateHomepage(dynamicContent);
   const about = createTab('about', generateAbout);
   const menu = createTab('menu', generateMenu);
   const contact = createTab('contact', generateContact);
