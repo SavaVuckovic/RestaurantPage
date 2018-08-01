@@ -1,4 +1,4 @@
-export default function generateHomepage() {
+export default function generateHomepage(targetDiv) {
   // create wrapper div
   const wrapper = document.createElement('div');
   wrapper.classList.add('wrapper');
@@ -17,6 +17,6 @@ export default function generateHomepage() {
   wrapper.appendChild(h1);
   wrapper.appendChild(img);
   wrapper.appendChild(p);
-
-  return wrapper;
+  console.log(targetDiv);
+  targetDiv.appendChild(wrapper);
 };
