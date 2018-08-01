@@ -1,3 +1,59 @@
+html,
 body {
-  background: red;
+  margin: 0;
+  padding: 0;
+  background: #8d99ae;
+  font-family: 'Bree Serif', serif;
+}
+
+#content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #content {
+    width: 750px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #content {
+    width: 970px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #content {
+    width: 75vw;
+  }
+}
+
+nav {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.tab.active {
+  background: #fff;
+  color: #000;
+}
+
+#dynamic {
+  text-align: center;
+  background: #fff;
+  padding: 24px;
+}
+
+.restaurant-img {
+  width: 100%;
 }
