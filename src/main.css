@@ -48,7 +48,7 @@ nav {
   color: #000;
 }
 
-#dynamic {
+.wrapper {
   text-align: center;
   background: #fff;
   padding: 24px;
